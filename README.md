@@ -1,4 +1,4 @@
-# UWP Frontend Technical Assessment
+# UWP Full Stack Technical Assessment
 
 This assessment is an opportunity for us to see how you approach a task and also how you execute it. In short, this task is to consume the response from a GraphQL request to the products endpoint, then generate and display at least 3 product cards from this information. Product cards should contain at a minimum:
 * An image
