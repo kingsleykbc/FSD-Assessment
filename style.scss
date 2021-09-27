@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.title-bar {
+  padding: 20px;
+  background-color: #EFEFEF;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  &__button {
+    padding: 12px;
+    background-color: #555555;
+    color: #FAFAFA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    border: none;
+    transition: opacity 400ms linear;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    &:hover {
+      opacity: 75%;
+    }
+  }
+}
+
+// Add your scss below this line
