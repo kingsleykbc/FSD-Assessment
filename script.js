@@ -15,25 +15,25 @@ const Products = {
   {
     products(first: ${no}){
       edges {
-          node {
-            id
-            title
-            tags
-            featuredImage{
-              url
-            }
-            priceRange{
-              maxVariantPrice{
-                amount
-                currencyCode
-              }
-              minVariantPrice{
-                amount
-                currencyCode
-              }
-            }
-          }
-        }
+				node {
+					id
+					title
+					tags
+					featuredImage{
+						url
+					}
+					priceRange{
+						maxVariantPrice{
+							amount
+							currencyCode
+						}
+						minVariantPrice{
+							amount
+							currencyCode
+						}
+					}
+				}
+			}
     }
   }
   `,
